@@ -1,3 +1,5 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
 const parent = React.createElement("div", { className: "parent" }, [
   React.createElement("div", { className: "child1" }, [
     React.createElement(
@@ -8,7 +10,7 @@ const parent = React.createElement("div", { className: "parent" }, [
     React.createElement(
       "p",
       { className: "content" },
-      "This is a first paragraph"
+      "This is a first paragraph of a story"
     ),
   ]),
   React.createElement("div", { className: "child2" }, [
